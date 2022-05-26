@@ -36,6 +36,28 @@ public class Matematyka {
         }
         return null;
     }
+    // Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest podzielna przez 3 i przez 5,
+
+    public boolean podzielnaPrzez(){
+        if ((num1 % 3 == 0) && (num1 % 5 == 0)){
+            System.out.println("jest podzielna przez 3 i 5");
+            return true;
+        }
+        else if ((num1 % 3 == 0) && (num1 % 5 > 0)){
+            System.out.println("jest podzielna przez 3, niepodzielna przez 5");
+            return true;
+        }
+        else if ((num1 % 3 > 0) && (num1 % 5 == 0)){
+            System.out.println("jest podzielna przez 5, niepodzielna przez 3");
+            return true;
+        }
+        else {
+            System.out.println("jest niepodzielna przez 3 i 5");
+            return false;
+        }
+
+
+    }
 
 
 
