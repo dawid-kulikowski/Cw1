@@ -58,8 +58,16 @@ public class Matematyka {
 
 
     }
+    // Napisz metodę, która jako argument przyjmuje liczbę i zwraca go podniesionego do 3 potęgi,
+    public int potega(){
+        System.out.println(num1*num1*num1);
+        return num1*num1*num1;
+    }
 
-
+    public double pierwiastekKwadratowy(){
+        System.out.println( Math.sqrt(num1));
+        return Math.sqrt(num1);
+    }
 
     }
 
