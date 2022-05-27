@@ -7,7 +7,7 @@ public class CwiczeniaMetody {
         person.getName();
 
         // zwracamy wynik mnożenia dodawania odejmowania dzielenia
-        Matematyka matematyka = new Matematyka(9,15);
+        Matematyka matematyka = new Matematyka(9,15,5);
         matematyka.dodawanie();
         matematyka.odejmowanie();
         matematyka.mnozenie();
@@ -25,6 +25,8 @@ public class CwiczeniaMetody {
         //pierwiastek z liczby 1
         matematyka.pierwiastekKwadratowy();
 
+        //sprawdzamy czy z podanych trzech liczb można utworzyć trójkąt prostokątny
+        matematyka.trojkatProstokatny();
 
     }
 }
